@@ -1,4 +1,4 @@
-GOT-Platform
-============
+GOT-english
+=============
 
-Unifiying Different web apps into a single platform
+Web App for the ASOIF (Game of Thrones) RPG (Green Ronin) with different utilities for the players

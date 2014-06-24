@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+## Variables
+
+{% set title = 'Coding Westeros' %}
+
+##
+{% block content %}
+<a href="/"><h1 class="header mainTitle">{{ title }}</h1></a>
+			
+<menu class="mainMenu">
+	
+	<a href="/npc" id="npc" class="sectionLink">
+		
+		<li>Generate NPC Background</li>
+		<p class="menuTooltip">Generates the background for an NPC, male or female, inhabitant of The Known World</p>
+	</a>
+	<a href="/houses" id="houses" class="sectionLink">
+		<li>Generate a House</li>
+		<p class="menuTooltip">Generates randomly house stats and holdings (still under development) of different sizes.</p>
+	</a>
+	<a href="/store" id="store" class="sectionLink">
+		<li>Store</li>
+		<p class="menuTooltip">(Not implemented yet)Calculate items costs quickly with this online store</p>
+	</a>
+	<a href="/other" id="other" class="sectionLink">
+		<li>(Not implemented yet)Army Generator</li>
+		<p class="menuTooltip">(Not implemented yet)</p>
+	</a>
+</menu>
+
+{% endblock %}

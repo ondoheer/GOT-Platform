@@ -1,0 +1,64 @@
+{% extends "base.html"%}
+## Variables
+
+{% set title = 'NPC Generator' %}
+
+##
+
+
+
+{% block content %}
+<a href="/"><h1 class="header NPCtitle">{{ title }}</h1></a>
+<button class="button" ></button>
+<div class="dataContainer ">
+	<img src="{{url_for('static', filename='assets/ico_personajegenerado.png')}}" alt="" class="helm">
+	<div class="subtitle"></div>
+	<div class="inputs">
+		<label for="name"  class="labelNPC name">name</label>
+		<input type="text" placeholder="not mandatory" name="name" id="name">
+		<label for="age"   class="labelNPC age">age</label>
+		<input type="number" value="30" min="13" max="110"size="4" placeholder="40" name="age" id="age">
+		<label  class="labelNPC gender">gender</label>
+		<label class="labelNPC gender" for="male">male</label>
+		<input type="radio" value="male" name="gender" id="male" >
+		<label class="labelNPC gender" for="female">female</label>
+		<input type="radio" value="female" name="gender" id="female" >
+	</div>
+	<div  id="traits">
+		<img class="categoryLogo" src="{{url_for('static', filename='assets/ico_categorias_contenidos.png')}}" alt="logo">
+		<h2 class="traits">Traits</h2>
+		<p class="traitsContainer"></p>
+	</div>
+	<div id="events">
+		<img class="categoryLogo" src="{{url_for('static', filename='assets/ico_categorias_contenidos.png')}}" alt="logo">
+		<h3 class="events">Events</h3>
+		<p class="eventsContainer"></p>
+	</div>
+	<div id="religion">
+		<img class="categoryLogo" src="{{url_for('static', filename='assets/ico_categorias_contenidos.png')}}" alt="logo">
+		<h3 class="religion">Religion</h3>
+		<p class="religionContainer"></p>
+	</div>
+	<div id="family">
+		<img class="categoryLogo" src="{{url_for('static', filename='assets/ico_categorias_contenidos.png')}}" alt="logo">
+		<h3 class="family">Family</h3>
+		<h4 class="partner">Partner(s)</h4>
+		<p class="loverContainer"></p>
+		<h4 class="siblings">Family</h4>
+		<p class="siblingsContainer"></p>
+		<h4 class="descendants">Descendants</h4>
+		<p class="descendantsContainer"></p>
+		<h4 class="relatives">Relatives</h4>
+		<p class="relativesContainer"></p>
+	</div>
+</div>
+{% endblock %}
+
+	
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/functions.js')}}"></script>
+<script src="{{ url_for('static', filename='js/NPCgenerator.js')}}"></script>
+{% endblock %}
+</body>
+</html>
