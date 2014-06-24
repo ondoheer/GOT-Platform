@@ -33,7 +33,7 @@ $(document).ready(function() {
         /****************
         FUNCION QUE SOLICITA E IMPRIME LA DATA
         ****************/
-        $.getJSON('/houseGenerator', houseData, function(receivedData) {
+        $.getJSON('/houses/houseGenerator', houseData, function(receivedData) {
             console.log('recibí:');
             console.log(receivedData);
 

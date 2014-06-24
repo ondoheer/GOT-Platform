@@ -1,5 +1,5 @@
 from random import randint
-from libraries import rollDices, randomStats
+from ..libraries import rollDices, randomStats
 
 
 realms = {
