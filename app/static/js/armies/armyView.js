@@ -1,7 +1,7 @@
 define(["backbone"], function(Backbone) {
     var ArmyView = Backbone.View.extend({
         el: '#main-app',
-        
+
         events: {
             'click #createButton': 'newUnit',
             'change #power': 'updatePower',
@@ -315,7 +315,9 @@ define(["backbone"], function(Backbone) {
             // }
 
             this.$el.find('#army').append('<div class="unit">' +
-                '<li><strong>Name: </strong>' + model.get('unitName') +
+                '<img class="units_image" src="">' +
+                '<div class="unit_stats">' +
+                '<li ><strong>Name: </strong>' + model.get('unitName') +
                 '</li><li><strong>type: </strong>' + model.get('type') +
                 '</li><li><strong>training: </strong>' + model.get('training') +
                 '</li><li><strong>discipline: </strong>' + model.get('discipline') +
@@ -326,6 +328,7 @@ define(["backbone"], function(Backbone) {
                 '</li><li> <strong>skills:</li><li></strong>' + model.get('skills')['1'] +
                 '</li><li>' + model.get('skills')['2'] +
                 '</li><li>' + model.get('skills')['3'] +
+                '</div>' +
                 '</div>');
 
         },

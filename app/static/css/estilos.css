@@ -44,7 +44,7 @@ h4{
 div{
 	display: block;
 	float: left;
-	clear: both;
+	/*clear: both;*/
 }
 span{
 	float: left;
@@ -321,4 +321,85 @@ HOUSE GENERATOR
 	background: #000;
 	opacity: 0.8;
 	color: #fff;
+}
+
+
+/*****************
+ARMIES GENERATOR
+*****************/
+
+.option {
+	display: block;
+	float: left;
+	clear: left;
+	margin: 4px 0;
+	margin-left: 15px;
+	color: #fff;
+	width: 100px;
+	font-size: 1.2em;
+}
+
+.instructions{
+	display: block;
+}
+
+.selector{
+	display: inline-block;
+}
+.main-app {
+	float: left;
+	width: 800px;
+	margin: 0 50px;
+	background: #212121;
+	border-color: #171717;
+	border-width: 30px;
+	border-image: url('../assets/border_bg_example2.png') 30 repeat;
+	-o-border-image: url('../assets/border_bg_example2.png') 30 repeat;
+	-webkit-border-image: url('../assets/border_bg_example2.png') 30 repeat;
+}
+
+.unit{
+	margin: 20px 10px;
+	padding: 20px;
+	float: left;
+	border: 2px solid #000;
+	clear: none;
+	background-color: #212121;
+	color: #fff;
+	}
+
+#armyContainer{
+	width: 100%;
+}
+
+ul{
+	list-style: none;
+	overflow: hidden;
+	display: block;
+}
+
+.units_image {
+	height: 200px;
+	width: 130px;
+	background-color: blue;
+	border: 1px solid red;
+	/*display: inline-block;*/
+	float: left;
+}
+
+.initial{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+/*.unit li {
+	margin-left: 15px;
+	float: left;
+	clear: left;
+}*/
+
+.unit_stats {
+	margin-left: 15px;
+	float: left;
+	
 }
