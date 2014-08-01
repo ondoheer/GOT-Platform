@@ -41,7 +41,8 @@ define(["backbone"], function(Backbone) {
                 power = 0,
                 population = 0,
                 wealth = 0,
-                skills;
+                skills,
+                baseSkillLevel = 2;
             switch (training) {
                 case 'green':
                     discipline = 1;
@@ -274,7 +275,8 @@ define(["backbone"], function(Backbone) {
                     wealth: wealth,
                     population: population
                 },
-                skills: skills
+                skills: skills,
+                skillLevel: baseSkillLevel //standard and just added
             });
         },
         addNewUnit: function(model, collection) {
@@ -325,9 +327,9 @@ define(["backbone"], function(Backbone) {
                 '</li><li><strong>cost:</li><li></strong> power: ' + model.get('cost').power +
                 '</li><li> wealth: ' + model.get('cost').wealth +
                 '</li><li> population: ' + model.get('cost').population +
-                '</li><li> <strong>skills:</li><li></strong>' + model.get('skills')['1'] +
-                '</li><li>' + model.get('skills')['2'] +
-                '</li><li>' + model.get('skills')['3'] +
+                '</li><li> <strong>skills:</li><li></strong>' + model.get('skills')['1'] + ' ' + model.get('skillLevel') +
+                '</li><li>' + model.get('skills')['2'] + ' ' + model.get('skillLevel') +
+                '</li><li>' + model.get('skills')['3'] + ' ' + model.get('skillLevel') +
                 '</div>' +
                 '</div>');
 
