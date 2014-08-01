@@ -329,7 +329,7 @@ define(["backbone"], function(Backbone) {
                 '</li><li> population: ' + model.get('cost').population +
                 '</li><li> <strong>skills:</li><li></strong>' + model.get('skills')['1'] + ' ' + model.get('skillLevel') +
                 '</li><li>' + model.get('skills')['2'] + ' ' + model.get('skillLevel') +
-                '</li><li>' + model.get('skills')['3'] + ' ' + model.get('skillLevel') +
+                '</li><li>' + model.get('skills')['3'] + ' ' + model.get('skillLevel') + //added
                 '</div>' +
                 '</div>');
 
