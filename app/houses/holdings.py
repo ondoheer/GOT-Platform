@@ -1,4 +1,4 @@
-from libraries import JSONDictionary
+from ..libraries import JSONDictionary
 
 holdingsData = {
     'defense': {

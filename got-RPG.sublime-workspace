@@ -1,0 +1,380 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"out",
+				"output_dir"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"temp",
+				"temp_id"
+			],
+			[
+				"tem",
+				"temp_class"
+			],
+			[
+				"te",
+				"temp_class"
+			],
+			[
+				"element",
+				"elementsToSwitch"
+			],
+			[
+				"border-s",
+				"border-spacing"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"upp",
+				"uppercase"
+			],
+			[
+				"conten",
+				"contenteditable"
+			],
+			[
+				"ele",
+				"elementsToCleanArray"
+			],
+			[
+				"two",
+				"twoLargeImg"
+			],
+			[
+				"curr",
+				"currentDateTitle"
+			],
+			[
+				"web",
+				"webpageBannerRoute"
+			],
+			[
+				"BANN",
+				"banner-title-link"
+			],
+			[
+				"hidd",
+				"hiddenTable"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"    import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/cnddhh/app/generateWeb.php",
+		"/var/www/cnddhh/app/saveFile.php",
+		"/var/www/cnddhh/app/builder.php",
+		"/var/www/cnddhh/index.php",
+		"/var/www/cnddhh/.htaccess",
+		"/var/www/cnddhh/.gitignore",
+		"/var/www/cnddhh/app/templates/extra/three-rows-blue.php",
+		"/var/www/cnddhh/app/templates/extra/three-columns-img.php",
+		"/var/www/cnddhh/templates/highlight/one-large-two-small.php",
+		"/var/www/cnddhh/css/extra-modules.css",
+		"/var/www/cnddhh/css/main-modules.css",
+		"/var/www/cnddhh/app/templates/main/solid-header.php",
+		"/var/www/cnddhh/app/templates/main/left-border.php",
+		"/var/www/cnddhh/app/templates/highlight/two-large-img.php",
+		"/var/www/cnddhh/app/templates/highlight/one-large-two-small.php",
+		"/var/www/cnddhh/app/templates/highlight/one-large-three-small.php",
+		"/var/www/cnddhh/app/templates/extra/three-rows-white.php",
+		"/var/www/cnddhh/css/main.css",
+		"/var/www/cnddhh/templates/extra/three-columns-img.php",
+		"/var/www/cnddhh/templates/extra/two-rows-text.php",
+		"/var/www/cnddhh/templates/main/left-border.php",
+		"/var/www/cnddhh/templates/main/no-img.php",
+		"/var/www/cnddhh/templates/highlight/one-large-three-small.php",
+		"/var/www/cnddhh/templates/extra/three-rows-blue.php",
+		"/var/www/cnddhh/js/main.js",
+		"/var/www/cnddhh/js/tests.js",
+		"/var/www/cnddhh/js/pages.js",
+		"/var/www/cnddhh/builder.php",
+		"/var/www/cnddhh/templates/main/solid-header.php",
+		"/var/www/cnddhh/.git/MERGE_MSG",
+		"/var/www/cnddhh/templates/highlight/two-large-img.php",
+		"/var/www/cnddhh/templates/extra/three-rows-white.php",
+		"/var/www/cnddhh/js/config.js",
+		"/var/www/cnddhh/generateWeb.php",
+		"/var/www/cnddhh/css/page.css",
+		"/var/www/cnddhh/saveFile.php",
+		"/home/ondoheer/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/var/www/cnddhh/favicon.ico",
+		"/var/www/cnddhh/404.html",
+		"/home/ondoheer/.config/sublime-text-3/Packages/User/MultiEditUtils.sublime-settings",
+		"/var/www/cnddhh/css/bootstrap.css",
+		"/var/www/cnddhh/css/bootstrap-theme.css",
+		"/var/www/cnddhh/css/bootstrap.css.map",
+		"/home/ondoheer/.config/sublime-text-3/Packages/User/codeivate-st.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"src",
+			"actio",
+			"no-image-title",
+			"no-image-link",
+			"left-border",
+			"karge",
+			"clear",
+			"main-container",
+			"border=\"1px\" bordercolor=\"#e0e0e0\"",
+			"main-solid-title",
+			"main",
+			"currentDateTitle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "got-RPG.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/hanaWordPress/hanaWP.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

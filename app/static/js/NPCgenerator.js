@@ -42,7 +42,8 @@ $(document).ready(function() {
             /********
              Enviamos el objeto generado en functions.js
             ********/
-            $.getJSON('/NPCgenerator', npcCharacter, function(npcReceived) {
+            // console.log(npcCharacter);
+            $.getJSON('/npc/NPCgenerator', npcCharacter, function(npcReceived) {
                 console.log(npcReceived.family);
 
 

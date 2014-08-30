@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+## Variables
+
+{% set title = 'Armies Generator' %}
+
+##
+
+{% block content %}
+	<style>
+		.unit{
+			margin: 20px 10px;
+			padding: 20px;
+			float: left;
+			border: 2px solid #000;
+			clear: none;
+			background-color: #212121;
+
+		}
+
+		#armyContainer{
+			width: 100%;
+		}
+
+		ul{
+			list-style: none;
+			overflow: hidden;
+			display: block;
+		}
+	</style>
+	
+	<header class="header" id="header">
+		<a href="/"><h1 class="header mainTitle">{{ title }}</h1></a>
+		<p class="instructions" id="instructions">
+			Name a new Army to create, then start adding units to it, in the end you can print it as PDF.
+		</p>
+	</header>
+	<section class="main-app" id="main-app">
+		<div id="createSection">
+			<div>
+				<h3>Enter your power, population and wealth</h3>
+				<label for="power">Power: </label>
+				<input id="power" value="0" name="power" type="number">
+				<label for="population">Population: </label>
+				<input id="population" value="0" name="population" type="number">
+				<label for="wealth">Wealth: </label>
+				<input id="wealth" value="0" name="wealth" type="number">
+			</div>
+			<div>
+				<h3>Name your unit and select it's properties</h3>
+				<label for="create">Unit Name</label>
+				<input type="text" name="create" id="create">
+				<select name="unit-type" id="unit-type">
+					<option value="archers">Archers</option>
+					<option value="cavalry">Cavalry</option>
+					<option value="criminals">Criminals</option>
+					<option value="crusaders">Crusaders</option>
+					<option value="engineers">engineers</option>
+					<option value="garrison">Garrison</option>
+					<option value="guerrillas">Guerrillas</option>
+					<option value="infantry">Fnfantry</option>				
+					<option value="mercenaries">Mercenaries</option>
+					<option value="peasants">Peasants</option>
+					<option value="personal">Personal Guards</option>
+					<option value="raiders">Raiders</option>
+					<option value="sailors">Sailors</option>
+					<option value="scouts">Scouts</option>
+					<option value="special">Special</option>
+					<option value="support">Support</option>
+					<option value="warships">Warships</option>
+				</select>
+				<select name="training" id="training">
+					<option value="green">Green</option>
+					<option value="trained">Trained</option>
+					<option value="veteran">Veteran</option>
+					<option value="elite">Elite</option>
+				</select>
+				<button id="createButton">add Unit</button>
+			</div>
+		</div>
+		<div id="costs">
+			
+		</div>
+		<div id="armyContainer">
+			<ul id="army"></ul>
+		</div>
+	</section>
+
+	{% endblock %}
+	
+	{% block scripts %}
+	<script src="{{ url_for('static', filename='js/armies/bower_components/requirejs/require.js')}}" data-main="{{url_for('static', filename='js/armies/main')}}"></script>
+	<script>
+		requirejs.config({
+	      urlArgs: 'timestamp=' + Date.now(),
+	      paths: {
+	        jquery: [
+	          'http://code.jquery.com/jquery-1.11.0.min',
+	          'bower_components/jquery'
+	        ],
+	        underscore: 'bower_components/underscore/underscore',
+	        backbone: 'bower_components/backbone/backbone'
+	      }
+	    });
+	</script>
+	{% endblock %}
+	
