@@ -1,7 +1,7 @@
 define(["backbone"], function(Backbone) {
     var ArmyView = Backbone.View.extend({
         el: '#main-app',
-        
+
         events: {
             'click #createButton': 'newUnit',
             'change #power': 'updatePower',
@@ -41,7 +41,10 @@ define(["backbone"], function(Backbone) {
                 power = 0,
                 population = 0,
                 wealth = 0,
-                skills;
+
+                skills,
+                baseSkillLevel = 2;
+
             switch (training) {
                 case 'green':
                     discipline = 1;
@@ -274,7 +277,10 @@ define(["backbone"], function(Backbone) {
                     wealth: wealth,
                     population: population
                 },
-                skills: skills
+
+                skills: skills,
+                skillLevel: baseSkillLevel //standard and just added
+
             });
         },
         addNewUnit: function(model, collection) {
@@ -315,7 +321,11 @@ define(["backbone"], function(Backbone) {
             // }
 
             this.$el.find('#army').append('<div class="unit">' +
-                '<li><strong>Name: </strong>' + model.get('unitName') +
+
+                '<img class="units_image" src="">' +
+                '<div class="unit_stats">' +
+                '<li ><strong>Name: </strong>' + model.get('unitName') +
+
                 '</li><li><strong>type: </strong>' + model.get('type') +
                 '</li><li><strong>training: </strong>' + model.get('training') +
                 '</li><li><strong>discipline: </strong>' + model.get('discipline') +
@@ -323,9 +333,12 @@ define(["backbone"], function(Backbone) {
                 '</li><li><strong>cost:</li><li></strong> power: ' + model.get('cost').power +
                 '</li><li> wealth: ' + model.get('cost').wealth +
                 '</li><li> population: ' + model.get('cost').population +
-                '</li><li> <strong>skills:</li><li></strong>' + model.get('skills')['1'] +
-                '</li><li>' + model.get('skills')['2'] +
-                '</li><li>' + model.get('skills')['3'] +
+
+                '</li><li> <strong>skills:</li><li></strong>' + model.get('skills')['1'] + ' ' + model.get('skillLevel') +
+                '</li><li>' + model.get('skills')['2'] + ' ' + model.get('skillLevel') +
+                '</li><li>' + model.get('skills')['3'] + ' ' + model.get('skillLevel') + //added
+                '</div>' +
+
                 '</div>');
 
         },

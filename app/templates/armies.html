@@ -6,7 +6,9 @@
 ##
 
 {% block content %}
-	<style>
+
+	<!-- <style> 
+
 		.unit{
 			margin: 20px 10px;
 			padding: 20px;
@@ -26,7 +28,9 @@
 			overflow: hidden;
 			display: block;
 		}
-	</style>
+
+	</style> -->
+
 	
 	<header class="header" id="header">
 		<a href="/"><h1 class="header mainTitle">{{ title }}</h1></a>
@@ -36,19 +40,21 @@
 	</header>
 	<section class="main-app" id="main-app">
 		<div id="createSection">
-			<div>
+
+			<div >
 				<h3>Enter your power, population and wealth</h3>
-				<label for="power">Power: </label>
-				<input id="power" value="0" name="power" type="number">
-				<label for="population">Population: </label>
-				<input id="population" value="0" name="population" type="number">
-				<label for="wealth">Wealth: </label>
-				<input id="wealth" value="0" name="wealth" type="number">
+				<label for="power" class="option">Power: </label>
+				<input class="selector" id="power" value="0" name="power" type="number">
+				<label for="population" class="option">Population: </label>
+				<input class="selector" id="population" value="0" name="population" type="number">
+				<label for="wealth" class="option">Wealth: </label>
+				<input class="selector" id="wealth" value="0" name="wealth" type="number">
 			</div>
 			<div>
 				<h3>Name your unit and select it's properties</h3>
-				<label for="create">Unit Name</label>
-				<input type="text" name="create" id="create">
+				<label for="create" class="option">Unit Name</label>
+				<input class="selector" type="text" name="create" id="create">
+
 				<select name="unit-type" id="unit-type">
 					<option value="archers">Archers</option>
 					<option value="cavalry">Cavalry</option>

@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"new_",
+				"new_image_name"
+			],
+			[
+				"new",
+				"new_height"
+			],
+			[
+				"save",
+				"save-file"
+			],
+			[
+				"temp",
+				"templateBuilder"
+			],
+			[
+				"real",
+				"realSubmit"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"module",
+				"moduleImageNumber"
+			],
+			[
+				"modue",
+				"moduleImages"
+			],
+			[
+				"modu",
+				"moduleImages"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"external",
+				"external-link-input"
+			],
+			[
 				"out",
 				"output_dir"
 			],
@@ -14,10 +66,6 @@
 			[
 				"padd",
 				"padding-bottom"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"paddi",
@@ -70,10 +118,6 @@
 			[
 				"blo",
 				"block"
-			],
-			[
-				"temp",
-				"temp_id"
 			],
 			[
 				"tem",
@@ -191,49 +235,81 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/ondoheer/Proyectos/GOT-Platform"
+	],
 	"file_history":
 	[
-		"/var/www/cnddhh/app/generateWeb.php",
+		"/var/www/cnddhh/css/bootstrap.css",
+		"/var/www/cnddhh/app/templates/builder/builder-table-320.php",
 		"/var/www/cnddhh/app/saveFile.php",
-		"/var/www/cnddhh/app/builder.php",
-		"/var/www/cnddhh/index.php",
-		"/var/www/cnddhh/.htaccess",
-		"/var/www/cnddhh/.gitignore",
-		"/var/www/cnddhh/app/templates/extra/three-rows-blue.php",
-		"/var/www/cnddhh/app/templates/extra/three-columns-img.php",
-		"/var/www/cnddhh/templates/highlight/one-large-two-small.php",
-		"/var/www/cnddhh/css/extra-modules.css",
-		"/var/www/cnddhh/css/main-modules.css",
-		"/var/www/cnddhh/app/templates/main/solid-header.php",
-		"/var/www/cnddhh/app/templates/main/left-border.php",
+		"/var/www/cnddhh/.git/MERGE_MSG",
+		"/var/www/cnddhh/app/img_cropper.php",
 		"/var/www/cnddhh/app/templates/highlight/two-large-img.php",
+		"/var/www/cnddhh/js/functions.js",
+		"/var/www/cnddhh/readme.md",
+		"/var/www/cnddhh/js/config.js",
+		"/var/www/cnddhh/js/main.js",
+		"/var/www/cnddhh/app/SimpleImage.php",
+		"/var/www/cnddhh/tests/cropic/img_crop_to_file.php",
+		"/var/www/cnddhh/tests/cropic/img_save_to_file.php",
+		"/var/www/cnddhh/tests/cropic/croppic.js",
+		"/var/www/cnddhh/tests/cropic/index.html",
+		"/var/www/cnddhh/tests/cropic/assets/js/main.js",
+		"/var/www/cnddhh/app/builder.php",
+		"/var/www/cnddhh/js/vendor/croppic.js",
+		"/var/www/cnddhh/mailchimp.html",
+		"/var/www/cnddhh/app/templates/builder/builder-table-600.php",
+		"/var/www/cnddhh/app/templates/main/surrounded-title.php",
+		"/var/www/cnddhh/app/templates/main/no-img.php",
+		"/var/www/cnddhh/app/templates/main/left-border.php",
 		"/var/www/cnddhh/app/templates/highlight/one-large-two-small.php",
 		"/var/www/cnddhh/app/templates/highlight/one-large-three-small.php",
-		"/var/www/cnddhh/app/templates/extra/three-rows-white.php",
+		"/var/www/cnddhh/app/generateWeb.php",
+		"/var/www/cnddhh/testmartin.html",
 		"/var/www/cnddhh/css/main.css",
+		"/var/www/cnddhh/.gitignore",
+		"/var/www/cnddhh/app/templates/extra/three-columns-img.php",
+		"/var/www/cnddhh/app/templates/extra/three-rows-blue.php",
+		"/var/www/cnddhh/app/templates/extra/three-rows-white.php",
+		"/var/www/cnddhh/app/templates/main/solid-header.php",
+		"/var/www/cnddhh/css/flat-ui.css",
+		"/var/www/cnddhh/js/pages.js",
+		"/var/www/bogo/functions.php",
+		"/var/www/bogo/front-page.php",
+		"/var/www/bogo/home.php",
+		"/var/www/bogo/index.php",
+		"/home/ondoheer/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/ondoheer/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/cnddhh/generateWeb.php",
+		"/var/www/cnddhh/saveFile.php",
+		"/var/www/cnddhh/css/bootstrap.min.css",
+		"/var/www/cnddhh/app/templates/extra/two-rows-text.php",
+		"/var/www/cnddhh/css/extra-modules.css",
+		"/var/www/cnddhh/css/main-modules.css",
+		"/var/www/cnddhh/css/highlights-modules.css",
+		"/var/www/cnddhh/.git/COMMIT_EDITMSG",
+		"/home/ondoheer/.config/sublime-text-3/Packages/User/PHP.sublime-settings",
+		"/var/www/cnddhh/index.php",
+		"/var/www/cnddhh/.htaccess",
+		"/var/www/cnddhh/templates/highlight/one-large-two-small.php",
 		"/var/www/cnddhh/templates/extra/three-columns-img.php",
 		"/var/www/cnddhh/templates/extra/two-rows-text.php",
 		"/var/www/cnddhh/templates/main/left-border.php",
 		"/var/www/cnddhh/templates/main/no-img.php",
 		"/var/www/cnddhh/templates/highlight/one-large-three-small.php",
 		"/var/www/cnddhh/templates/extra/three-rows-blue.php",
-		"/var/www/cnddhh/js/main.js",
 		"/var/www/cnddhh/js/tests.js",
-		"/var/www/cnddhh/js/pages.js",
 		"/var/www/cnddhh/builder.php",
 		"/var/www/cnddhh/templates/main/solid-header.php",
-		"/var/www/cnddhh/.git/MERGE_MSG",
 		"/var/www/cnddhh/templates/highlight/two-large-img.php",
 		"/var/www/cnddhh/templates/extra/three-rows-white.php",
-		"/var/www/cnddhh/js/config.js",
-		"/var/www/cnddhh/generateWeb.php",
 		"/var/www/cnddhh/css/page.css",
-		"/var/www/cnddhh/saveFile.php",
 		"/home/ondoheer/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/var/www/cnddhh/favicon.ico",
 		"/var/www/cnddhh/404.html",
 		"/home/ondoheer/.config/sublime-text-3/Packages/User/MultiEditUtils.sublime-settings",
-		"/var/www/cnddhh/css/bootstrap.css",
 		"/var/www/cnddhh/css/bootstrap-theme.css",
 		"/var/www/cnddhh/css/bootstrap.css.map",
 		"/home/ondoheer/.config/sublime-text-3/Packages/User/codeivate-st.sublime-settings"
@@ -254,6 +330,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"table",
+			"onafter",
+			"Crop",
+			"100%",
+			"max-",
+			"<a",
+			"server",
+			"header",
+			"width=\"300px\"",
+			"style",
+			"header-",
+			"header-container",
+			"external-link-save",
+			"edit",
+			"contenteditable",
+			"true",
+			"main-solid-title-img",
 			"src",
 			"actio",
 			"no-image-title",
@@ -329,7 +422,7 @@
 	},
 	"output.sftp":
 	{
-		"height": 0.0
+		"height": 113.0
 	},
 	"project": "got-RPG.sublime-project",
 	"replace":
@@ -365,6 +458,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -372,7 +466,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 199.0,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
