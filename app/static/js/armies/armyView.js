@@ -294,7 +294,7 @@ define(["backbone"], function(Backbone) {
                 return;
             }
             if (this.populationMoney < model.get('cost').population) {
-                alert("You don't seemt o have enough peasants to sacrifice!");
+                alert("You don't seem to have enough peasants to sacrifice!");
                 return;
             }
             if (this.wealthMoney < model.get('cost').wealth) {

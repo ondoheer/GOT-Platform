@@ -222,7 +222,7 @@ traits = {
         "honorable",
         "liar",
         "traecharous",
-        "taked advantage of people",
+        "took advantage of people",
         "distracted",
         "witty",
         "clever",
